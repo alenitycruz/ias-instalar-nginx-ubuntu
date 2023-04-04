@@ -1,12 +1,20 @@
 # COMANDOS PARA INSTALAÇÃO DO NGINX
-apt-get update
-sudo apt install nginx
-sudo service nginx start
+
+> COMANDO PARA VERIFICAR O STATUS DO NGINX
+
 sudo service nginx status
+
+> COMANDO PARA VERIFICAR LISTA DOS ACESSOS DISPONÍVEIS
+
 sudo ufw app list
-sudo apt-get install ufw
-sudo ufw enable
-sudo ufw allow 80/tcp
+
+> COMANDO PARA VERIFICAR STATUS DO UFW
 sudo ufw status
-sudo ufw app list
-sudo ufw allow 'Nginx HTTP'
+
+> COMANDO PARA TORNAREXECUTÁVEL 
+
+chmod +x iasinstalarnginx.sh
+
+> COMANDO PARA EXECUTAR
+
+./iasinstalarnginx.sh
