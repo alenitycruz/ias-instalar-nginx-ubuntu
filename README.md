@@ -9,6 +9,7 @@ sudo service nginx status
 sudo ufw app list
 
 > COMANDO PARA VERIFICAR STATUS DO UFW
+
 sudo ufw status
 
 > COMANDO PARA TORNAREXECUTÁVEL 
