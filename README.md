@@ -12,17 +12,13 @@ git config --global user.mail "o seu email do github"
 
 git config --global user.name "o seu login do github"
 
-cd /
+cd ~
 
-apt-get install unzip -y
-
-cd /tmp
-
-wget https://github.com/alenitycruz/ias-instalar-nginx-ubuntu.git
+git clone https://github.com/alenitycruz/ias-instalar-nginx-ubuntu.git
 
 cd ias-instalar-nginx-ubuntu
 
-cp -R * /var/www/html/
+./iasinstalarnginx.sh
 
 ==========================================================
 
